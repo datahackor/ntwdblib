@@ -1,0 +1,369 @@
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+0, 	"Error 0"
+2, 	"No such file or directory"
+7, 	"Arg list too long"
+8, 	"Exec format error"
+9, 	"Bad file number"
+12, 	"Not enough core"
+13, 	"Permission denied"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+17, 	"File exists"
+18, 	"Cross-device link"
+22, 	"Invalid argument"
+24, 	"Too many open files"
+28, 	"No space left on device"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+33, 	"Math argument"
+34, 	"Result too large"
+36, 	"Resource deadlock would occur"
+37, 	"Unknown error"
+38, 	"This error number is unused."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1201, 	"Jan"
+1202, 	"Feb"
+1203, 	"Mar"
+1204, 	"Apr"
+1205, 	"May"
+1206, 	"Jun"
+1207, 	"Jul"
+1208, 	"Aug"
+1209, 	"Sep"
+1210, 	"Oct"
+1211, 	"Nov"
+1212, 	"Dec"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1301, 	"01"
+1302, 	"02"
+1303, 	"03"
+1304, 	"04"
+1305, 	"05"
+1306, 	"06"
+1307, 	"07"
+1308, 	"08"
+1309, 	"09"
+1310, 	"10"
+1311, 	"11"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1312, 	"12"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1400, 	"DATE_MDY"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1410, 	"TIME_12"
+1420, 	"CENT_Y4"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1430, 	"MFMT_SHORT"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1440, 	"MNY_PREFIX"
+1450, 	"DATE0_OFF"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1460, 	"$"
+1470, 	"."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1480, 	","
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1490, 	" "
+1500, 	":"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1510, 	"AM"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1520, 	"PM"
+1530, 	"skipped"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+1540, 	"Row"
+1550, 	"Column"
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10000, 	"Unable to allocate sufficient memory."
+10001, 	"NULL DBPROCESS pointer encountered."
+10002, 	"NULL Loginrec Pointer encountered."
+10003, 	"Login incorrect."
+10004, 	"Unable to connect: SQL Server is unavailable or does not exist."
+10005, 	"DBPROCESS is dead or not enabled."
+10006, 	"Attempt to login with NULL LOGINREC."
+10007, 	"General SQL Server error: Check messages from the SQL Server."
+10008, 	"Possible network error: Bad token from SQL Server: Datastream processing out of sync."
+10009, 	"General non-specific DB-Library error"
+10010, 	"Possible network error: Read from SQL Server failed."
+10011, 	"Column number out of range."
+10012, 	"Attempt to call dbtsput() with an invalid timestamp."
+10013, 	"Invalid parameter in DB-LIBRARY function reference."
+10014, 	"Attempt to update the timestamp of a table that has no timestamp column."
+10015, 	"Data-conversion resulted in overflow."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10016, 	"Requested data-conversion does not exist."
+10017, 	"Invalid computeid or compute column number."
+10018, 	"Possible network error: Error in closing network connection."
+10019, 	"Attempt to get text pointer/timestamp from a non-text column"
+10020, 	"Attempt to use dbtxtsput() to put a new text-timestamp into a column whose datatype is neither SQLTEXT or SQLIMAGE."
+10021, 	"Attempt to send too much text via the dbmoretext() call."
+10022, 	"Attempt to send empty command buffer to the SQL Server."
+10023, 	"Name too long for loginrec field."
+10024, 	"SQL Server connection timed out."
+10025, 	"Possible network error: Write to SQL Server Failed."
+10026, 	"Network connection not in correct mode, invalid SQL Server connection."
+10027, 	"Possible network error: Error in sending out-of-band data to SQL Server."
+10028, 	"Illegal timeout value specified."
+10029, 	"Maximum number of DBPROCESSes already allocated."
+10030, 	"Attempt to use invalid dboption."
+10031, 	"Attempt to set fields in a null loginrec field."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10032, 	"Attempt to set unknown loginrec field."
+10033, 	"NULL parameter not allowed for this dboption."
+10034, 	"Invalid or out of range dboption parameter."
+10035, 	"Negative starting index passed to dbstrcpy."
+10036, 	"Null destination variable not allowed."
+10037, 	"Unexpected EOF from SQL Server."
+10038, 	"Attempt to initiate a new SQL Server operation with results pending."
+10039, 	"Attempt to convert data stopped by syntax error in source field."
+10040, 	"Db-library network communications layer not loaded."
+10041, 	"Unknown bind type passed to DB-LIBRARY function."
+10042, 	"Attempt to bind to a non-existent column."
+10043, 	"User attempted a dbbind() with mismatched column and variable types."
+10044, 	"Attempt to bind using NULL pointers."
+10045, 	"Attempt to bind user variable to a non-existent compute row."
+10046, 	"User attempted a dbaltbind() with mismatched column and variable types."
+10047, 	"Server did not grant a distributed transaction ID."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10048, 	"Illegal field number passed to bcp_control()."
+10049, 	"1000 rows successfully bulk-copied to host-file. %ld total"
+10050, 	"Batch successfully bulk-copied to SQL Server."
+10051, 	"1000 rows sent to SQL Server. %ld total"
+10052, 	"I/O error while writing bcp data-file."
+10053, 	"Attempt to bulk-copy a NULL value into a Server column which does not accept NULL values."
+10054, 	"Attempt to bulk-copy an oversized row to the SQL Server."
+10055, 	"bcp_init() must be called before any other bcp routines."
+10056, 	"bcp_bind(), bcp_collen() and bcp_colptr() may be used only after bcp_init() has been called with the copy direction set to DB_IN."
+10057, 	"bcp_bind() may NOT be used after bcp_init() has been passed a non-NULL input file name."
+10058, 	"For bulk copy, all variable-length data must have either a length-prefix or a terminator specified."
+10059, 	"bcp_columns() and bcp_colfmt() may be used only after bcp_init() has been passed a valid input file."
+10060, 	"bcp_columns() must be called before bcp_colfmt()."
+10061, 	"Bcp host-files must contain at least one column."
+10062, 	"bcp_exec() may be called only after bcp_init() has been passed a valid host file."
+10063, 	"Bcp: Unable to open host data-file."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10064, 	"Bcp: Unable to open error-file."
+10065, 	"I/O error while writing bcp error-file."
+10066, 	"Attempt to send too much TEXT data via the bcp_moretext() call."
+10067, 	"Unexpected EOF encountered in BCP data-file."
+10068, 	"Host-file columns may be skipped only when copying INto the Server."
+10069, 	"NULL program pointer encountered."
+10070, 	"Cannot seek in data file"
+10071, 	"Bad bulk-copy direction.  Must be either IN or OUT."
+10072, 	"Attempt to use Bulk Copy with a non-existent Server table."
+10073, 	"Attempt to set maximum number of DBPROCESSes lower than 1."
+10074, 	"DB-Library has already been initialized."
+10075, 	"Invalid cursor statement."
+10076, 	"Attempt to call cursor functions when there are commands waiting to be executed."
+10077, 	"One of the tables involved in the cursor statement does not have a unique index."
+10078, 	"Cursor statement contains one of the disallowed phrases 'compute', 'union', 'for browse', or 'select into'."
+10079, 	"Aggregate functions are not allowed in a cursor statement."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10080, 	"Only fully keyset driven cursors can have 'order by', 'group by', or 'having' phrases."
+10081, 	"Keyset or window scroll size exceeds the memory limitations of this machine."
+10082, 	"Keyset cannot be scrolled backward in mixed cursors with a previous fetch type."
+10083, 	"Cursor statement generated no results."
+10084, 	"A view cannot be joined with another table or a view in a cursor statement."
+10085, 	"Row buffering should not be turned on when using cursor APIs."
+10086, 	"Row number to be fetched is outside valid range."
+10087, 	"Backward scrolling cannot be used in a forward scrolling cursor."
+10088, 	"Fetch types RANDOM and RELATIVE can only be used within the keyset of keyset driven cursors."
+10089, 	"Fetch type LAST requires fully keyset driven cursors."
+10090, 	"Data locking or modifications cannot be made in a READONLY cursor."
+10091, 	"Table name must be determined in operations involving data locking or modifications."
+10092, 	"Update or insert operations using bind variables require single table cursors."
+10093, 	"Update or insert operations cannot use bind variables when binding type is NOBIND."
+10094, 	"The view used in the cursor statement does not include all the unique index columns of the underlying tables."
+10095, 	"Update or delete operation did not affect any rows."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+10096, 	"Cursors are not supported for this server."
+10097, 	"The BCP hostfile '%s' contains only %ld rows. Skipping all of these rows is not allowed."
+10098, 	"The BCP hostfile '%s' contains only %ld rows.  It was impossible to read the requested %ld rows."
+10099, 	"The table '%s' contains only %ld rows.  Copying up to row %ld is not possible."
+10100, 	"The table '%s' contains only %ld rows. Skipping all of these rows is not allowed."
+10101, 	"Attempt to read unknown version of BCP format file."
+10102, 	"Incorrect host-column number found in bcp format-file."
+10103, 	"I/O error while reading BCP format file."
+10104, 	"The data stored in the DBNUMERIC/DBDECIMAL structure is invalid."
+10105, 	"The SQL Server's TDS is obsolete with this version of DB-Library."
+10106, 	"The row length exceeds SQL Server's maximum allowable size."
+10107, 	"Microsoft Distributed Transaction Coordinator call failed."
+10108, 	"This function is not supported on this platform at this time."
+10109, 	"float conversion attempt failed, the source is invalid."
+10110, 	"Unable to connect: SQL Server is unavailable or does not exist -- will attempt a fallback connection."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+11001, 	" Insufficient memory."
+11002, 	" Access denied."
+11003, 	" Connection is busy."
+11004, 	" Connection broken."
+11005, 	" Connection limit exceeded."
+11006, 	" Specified SQL server not found."
+11007, 	" The network has not been started."
+}
+
+
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+11008, 	" Insufficient network resources."
+11009, 	" Network is busy."
+11010, 	" Network access denied."
+11011, 	" General network error.  Check your documentation."
+11012, 	" Incorrect connection mode."
+11013, 	" Name not found in directory service."
+11014, 	" Invalid connection."
+11015, 	" Error reading or writing network data."
+11016, 	" Too many open file handles."
+11017, 	" Unable to connect: SQL Server does not exist or network access denied."
+11018, 	" SSL Security error."
+11019, 	" SQL Server requires Encryption On."
+11020, 	" Encryption not supported on SQL Server."
+}
+
+
+1 VERSIONINFO
+FILEVERSION 2000,80,194,0
+PRODUCTVERSION 8,0,1,94
+FILEOS 0x40000
+FILETYPE 0x0
+{
+BLOCK "StringFileInfo"
+{
+	BLOCK "040904E4"
+	{
+		VALUE "Platform", "NT INTEL X86"
+		VALUE "CompanyName", "Microsoft Corporation"
+		VALUE "FileDescription", "SQL Server Client Library"
+		VALUE "FileVersion", "2000.080.0194.00"
+		VALUE "InternalName", ""
+		VALUE "LegalCopyright", "? 1988-2000 Microsoft Corp. All rights reserved."
+		VALUE "LegalTrademarks", "Microsoft? is a registered trademark of Microsoft Corporation. Windows(TM) is a trademark of Microsoft Corporation"
+		VALUE "OriginalFilename", "NTWDBLIB.DLL"
+		VALUE "ProductName", "Microsoft SQL Server"
+		VALUE "ProductVersion", "8.00.194"
+		VALUE "Comments", "NT INTEL X86"
+	}
+}
+
+BLOCK "VarFileInfo"
+{
+	VALUE "Translation", 0x0409 0x04E4
+}
+}
+
